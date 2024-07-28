@@ -1,2 +1,3 @@
-#Graphics project of Advanced Programming course, SUT
-description: aa game, with some added features like scoreboard, music while playing the game, different difficulties and visual phases in each mission, grayscale mode, profiles and avatars, etc..
+# graphic project of advanced programming course, SUT
+aa game, throwing needles to a spinning center, trying to stick as many needles while avoiding collisions. 
+extra features like scoreboard, avatar for profiles, different difficulties, grayscale mode, music while playing missions, etc..
