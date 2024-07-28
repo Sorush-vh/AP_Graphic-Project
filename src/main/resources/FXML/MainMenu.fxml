@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="view.MainMenu"
+            prefHeight="600.0" prefWidth="800.0"
+            stylesheets="@../css/styles.css" styleClass="pane-parent">
+
+    <center>
+        <VBox alignment="CENTER" spacing="15">
+        
+            <Button text="Start Game!" onMouseClicked="#startGame"/>
+            <Button text="Profile Settings"  fx:id="profileButton" onMouseClicked="#profile"/>
+            <Button text="Game Settings" onMouseClicked="#setting"/>
+            <Button text="ScoreBoard" onMouseClicked="#scoreBoard"/>
+            <Button text="Logout" onMouseClicked="#logout"/>
+            <Button text="Restart previous game" onMouseClicked="#restartGame"/>
+        </VBox>
+    </center>
+
+</BorderPane>

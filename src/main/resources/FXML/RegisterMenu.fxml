@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox.*?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="view.RegisterMenuController"
+            prefHeight="600.0" prefWidth="800.0"
+            stylesheets="@../css/styles.css" styleClass="pane-parent">
+
+
+        
+
+
+    <center>
+    
+        <VBox alignment="CENTER" spacing="10" >
+        <Text text="Welcome!" fx:id="output_text" styleClass="inputField"/>
+            <Label text="Register Menu:" id="label" fx:id="label"/>
+            <TextField promptText="username" styleClass="inputField" fx:id="username"/>
+            <PasswordField promptText="password" styleClass="inputField" fx:id="password"/>
+            <HBox alignment="CENTER" spacing="5">
+                <Button text="Register!" fx:id="register_button" onMouseClicked="#register">
+                </Button>
+
+                <Button text="Already have an account: Login!" fx:id="login_button" onMouseClicked="#login">
+                </Button>
+            </HBox>
+
+           <Button text="Play as guest!" fx:id="guest_button" onMouseClicked="#runAsGuest">
+           </Button>
+
+           <Button text="exit" fx:id="exit_button" onMouseClicked="#exit">
+            </Button> 
+        </VBox>
+    </center>
+
+</BorderPane>
